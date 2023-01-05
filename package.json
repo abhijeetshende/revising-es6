@@ -1,0 +1,25 @@
+{
+  "name": "learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel babel_enabled/src -d babel_enabled/output"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhijeetshende/revising-es6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhijeetshende/revising-es6/issues"
+  },
+  "homepage": "https://github.com/abhijeetshende/revising-es6#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2"
+  }
+}
