@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "babel babel_enabled/src -d babel_enabled/output"
+    "build": "babel babel_enabled/src -d babel_enabled/output",
+    "build-via-webpack": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,9 @@
   "devDependencies": {
     "@babel/cli": "^7.20.7",
     "@babel/core": "^7.20.12",
-    "@babel/preset-env": "^7.20.2"
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   }
 }
