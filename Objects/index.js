@@ -11,13 +11,20 @@ const person = {
         console.log('helloworld')
     }
   };
+ let person1 = {
+    age:30,
+    name:'abhijeet'
+ }
+
+ let person2 = new Object();
+ person2.age = 30;
+ person2.name = 'abhijeet'
 
 
-console.log(person,name);
-// cannot create object of Person 
+ console.log(person1)
+ console.log(person2)
 
 
-
-let person2 = new Object();
-person2.name = 'abhijeet'
-console.log(person2.name)
+ // as objects are point to different memory locations
+ //hence not equal
+ console.log(person1 === person2)
