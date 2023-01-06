@@ -18,3 +18,15 @@ printToScreen(array);
 //remove to first index
 printToScreen(array.shift(0));
 printToScreen(array);
+
+
+printToScreen(array.slice(-2))
+
+
+
+
+let arrayToSum = [1,2,2,3,4,5,6];
+
+printToScreen(arrayToSum.reduce((total,elem)=>{
+    return total + elem
+}));
