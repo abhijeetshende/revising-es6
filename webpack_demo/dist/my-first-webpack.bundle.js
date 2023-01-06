@@ -16,7 +16,7 @@
   \*******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _utils_variables_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./utils/variables.js */ \"./webpack_demo/utils/variables.js\");\n\nconsole.log('hello index');\n(0,_utils_variables_js__WEBPACK_IMPORTED_MODULE_0__.printSecret)();\n\n//# sourceURL=webpack://learning/./webpack_demo/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _utils_variables_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./utils/variables.js */ \"./webpack_demo/utils/variables.js\");\n\nconsole.log('hello index', _utils_variables_js__WEBPACK_IMPORTED_MODULE_0__);\n_utils_variables_js__WEBPACK_IMPORTED_MODULE_0__.printSecret();\n\n//# sourceURL=webpack://learning/./webpack_demo/index.js?");
 
 /***/ }),
 
