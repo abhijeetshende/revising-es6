@@ -49,3 +49,14 @@ const person = {
   * 
   */
  console.log(person_with_inheritance);
+
+// printing the inherited values
+ console.log(person_with_inheritance.__proto__);
+
+ // if we want any functions to be availble for all the objects
+ Object.prototype.mycustomfunction = function(){
+    console.log('hello from mycustom function')
+ }
+ person_with_inheritance.mycustomfunction();
+
+ 
