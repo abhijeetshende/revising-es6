@@ -6,5 +6,7 @@ utilService.printToScreen = function (str) {
   para.innerText = str;
   bodyel[0].append(para);
 };
+let ab = 4;
+export default ab;
 
 export { utilService };

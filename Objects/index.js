@@ -54,3 +54,6 @@ Object.prototype.mycustomfunction = function () {
 };
 person_with_inheritance.mycustomfunction();
 
+
+
+
