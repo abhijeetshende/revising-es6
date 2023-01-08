@@ -100,3 +100,41 @@ class PersonExample3 extends BasePerson{
 }
 let p3_inheritance = new PersonExample3('abhijeet','shende');
 console.log(p3_inheritance.sayHello())
+
+
+/**
+ * Static Method
+ * to call method without instantiting
+ */
+
+class staticClassExample{
+  static sayHello(){
+    console.log(`hello I am a Static Method`);
+  }
+
+}
+
+console.log(staticClassExample.sayHello());
+
+
+/**
+ * 
+ * GETTER SETTER
+ */
+
+class baseClass2{
+  constructor(name){
+    this._name =name;
+  }
+  get name(){
+    return this._name.toUpperCase();
+  }
+  set name(name){
+    this._name =name+ ' Updated' 
+  }
+}
+
+let gs = new baseClass2('abhijeet')
+console.log(gs.name);
+gs.name = 'Shende'
+console.log(gs.name);
